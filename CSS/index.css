@@ -1,0 +1,185 @@
+body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #0c0f15;
+    overflow-x:hidden;
+    color: #ababab; }
+
+.top{
+    display: flex;
+    justify-content: space-around;
+} 
+.top-pro{
+    /* position: absolute; */
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.top-right{
+    /* position: absolute; */
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.index{
+    /* background-size: cover; */
+    /* background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg");*/
+    background-image: url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg");
+    background-size: cover;
+}
+
+.nav-list{
+    /* list-style-type: none; */
+    margin: 0%;
+    display: flex;
+    /* position: sticky; */
+    /* align-items: flex-start; */
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    /* padding: 10px; */
+}
+/* .nav-list li{
+    margin-right: 20px;
+} */
+.top-bar{
+    margin: 0%;
+    background-color: lightgray;
+    border-radius: 45%;
+    border-style: solid;
+    border-color: brown;
+}
+.pro-pic{
+    position: relative;
+    margin-top: 9%;
+    margin-right: 65%;
+}
+.pic{
+    height: 650px;
+    width: 600px;
+    border-radius: 50%;
+}
+
+.summary{
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 12px;
+    /* border-width: 2px; */
+    height: fit-content;
+    width: 1120px;
+    text-align: justify;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    /* display: flex; */
+    padding: 15px;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    background-image: url(https://images.unsplash.com/photo-1449247709967-d4461a6a6103?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-size: cover; */
+}
+.image{
+    border-style: solid;
+    border-color: whitesmoke;
+    /* border-radius: 2.5%; */
+    display: flex;
+    width: 1500px;
+    height: 450px;
+    justify-content: space-between;
+    margin-left: 3%;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+/* .sum{
+    position: relative;
+    display: inline-flex;
+    margin-top: 50px;
+} */
+
+@keyframes tracking-out-expand{0%{opacity:1}60%{opacity:.8}100%{letter-spacing:1em;opacity:0}}
+.tracking-out-expand{
+    animation:tracking-out-expand 2s cubic-bezier(.25,.46,.45,.94) 1s infinite both;
+    margin-left: 3%;
+}
+.imgs{
+    height: 450px;
+    width: 200px;
+}
+
+button{
+    margin-left: 5%;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/*contact page*/
+.outerform{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 450px;
+    margin-top: 8%;
+    margin-left: 35%;
+    border-style: solid;
+    border-width: 12px;
+    display: flex;
+    justify-content: center;
+    /* padding: 30px; */
+    border-color: yellow;
+}
+.formlist{
+    background-color: skyblue;
+    margin-top: 4%;
+    margin-left: 4%;
+    padding: 30px;
+    height: 200px;
+    width: 250px;
+    border-radius: 2%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: olivedrab;
+}
+.forms{
+    /* height: 200px;
+    width: 250px; */
+    color: black;
+    padding: 15px;
+    /* border-style: solid; */
+    /* border-width: 2px; */
+    border-radius: 5%;
+    border-color: olivedrab;
+}
+input{
+    width: 210px;
+}
+.icons{
+    padding: 40px;
+    height: fit-content;
+    width: 450px;
+    position: absolute;
+    left: 800px;
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 2%;
+    border-style: solid;
+    border-color: olivedrab; */
+}
